@@ -1,0 +1,41 @@
+import React from 'react';
+import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
+import './Header.css'
+
+const Header = () => {
+    return (
+        <>
+        <Navbar bg="success" variant="dark" sticky="top" collapseOnSelect expand="lg" >
+          <Container>
+          <Navbar.Brand className="fs-2" href="#home"><i class="fas fa-clinic-medical"></i>Nandan Park</Navbar.Brand>
+          <Navbar.Toggle />
+    <Navbar.Collapse className="justify-content-end">
+            <Nav.Link className="nav-style" as={HashLink} to="/home#home">Home</Nav.Link>
+            <Nav.Link className="nav-style" as={HashLink} to="home#rides">Rides</Nav.Link>
+            <Nav.Link className="nav-style" as={HashLink} to="/home#packages">Packages</Nav.Link>
+            <Nav.Link className="nav-style" as={Link}to="appointment">Appointment</Nav.Link>
+            <Nav.Link className="nav-style" as={Link}to="about">About</Nav.Link>
+            <div>
+              
+            </div>
+            {/* {user?.email?
+            <Button onClick={logOut}
+             variant="light">Logout</Button> :  
+               <Nav.Link className="nav-style" as={Link}to="login">Login</Nav.Link>}
+              
+         <Navbar.Text>
+         Signed in as: <a href="#login">{user?.displayName} </a>
+        </Navbar.Text>  */}
+    </Navbar.Collapse>
+          
+          </Container>
+        </Navbar>
+            
+      </>
+
+    );
+};
+
+export default Header;
