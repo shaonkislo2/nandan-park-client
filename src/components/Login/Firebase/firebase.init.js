@@ -1,6 +1,6 @@
 import { initializeApp } from "firebase/app";
 import firebaseConfig from "./firebase.config";
 
-const app = initializeApp(firebaseConfig);
+const initializeAuthentication = initializeApp(firebaseConfig);
 
-export default initializeApp;
+export default initializeAuthentication;

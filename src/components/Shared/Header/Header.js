@@ -1,10 +1,13 @@
+import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
+import useAuth from '../../../hooks/useAuth';
 import './Header.css'
 
 const Header = () => {
+    const {user, logOut}=useAuth();
     return (
         <>
         <Navbar bg="success" variant="dark" sticky="top" collapseOnSelect expand="lg" >
@@ -20,14 +23,14 @@ const Header = () => {
             <div>
               
             </div>
-            {/* {user?.email?
+            {user?.email?
             <Button onClick={logOut}
              variant="light">Logout</Button> :  
                <Nav.Link className="nav-style" as={Link}to="login">Login</Nav.Link>}
               
          <Navbar.Text>
          Signed in as: <a href="#login">{user?.displayName} </a>
-        </Navbar.Text>  */}
+        </Navbar.Text> 
     </Navbar.Collapse>
           
           </Container>
