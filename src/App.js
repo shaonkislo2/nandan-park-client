@@ -12,6 +12,7 @@ import PrivateRoute from './components/Login/Login/PrivateRoute/PrivateRoute';
 import Booking from './components/Booking/Booking';
 import NotFound from './components/NotFound/NotFound';
 import Footer from './components/Shared/Footer/Footer';
+import Gallery from './components/Home/Gallery/Gallery';
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
           </Route>
           <Route exact path = "/packages">
            <Packages></Packages>
+          </Route>
+          <Route exact path = "/gallery">
+           <Gallery></Gallery>
           </Route>
           <Route exact path = "/login">
            <Login></Login>

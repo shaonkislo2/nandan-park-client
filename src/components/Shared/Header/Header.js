@@ -12,13 +12,14 @@ const Header = () => {
         <>
         <Navbar bg="success" variant="dark" sticky="top" collapseOnSelect expand="lg" >
           <Container>
-          <Navbar.Brand className="fs-2" href="#home"><i class="fas fa-clinic-medical"></i>Nandan Park</Navbar.Brand>
+          <Navbar.Brand className="fs-2" href="#home">Nandan Park</Navbar.Brand>
           <Navbar.Toggle />
     <Navbar.Collapse className="justify-content-end">
             <Nav.Link className="nav-style" as={HashLink} to="/home#home">Home</Nav.Link>
             <Nav.Link className="nav-style" as={HashLink} to="home#rides">Rides</Nav.Link>
             <Nav.Link className="nav-style" as={HashLink} to="/home#packages">Packages</Nav.Link>
-            <Nav.Link className="nav-style" as={Link}to="appointment">Appointment</Nav.Link>
+            <Nav.Link className="nav-style" as={HashLink} to="/home#gallery">Gallery</Nav.Link>
+            
             <Nav.Link className="nav-style" as={Link}to="about">About</Nav.Link>
             <div>
               
