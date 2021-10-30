@@ -11,6 +11,7 @@ import Register from './components/Login/Register/Register';
 import PrivateRoute from './components/Login/Login/PrivateRoute/PrivateRoute';
 import Booking from './components/Booking/Booking';
 import NotFound from './components/NotFound/NotFound';
+import Footer from './components/Shared/Footer/Footer';
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
           <NotFound></NotFound>
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
       </AuthProvider>
     </div>
