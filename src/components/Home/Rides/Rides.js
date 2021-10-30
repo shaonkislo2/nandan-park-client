@@ -6,7 +6,7 @@ const Rides = () => {
     const [rides, setRides] = useState([]);
 
     useEffect(() =>{
-        fetch('rides.json')
+        fetch('http://localhost:7000/rides')
         .then(res => res.json())
         .then(data => setRides(data))
     },[])

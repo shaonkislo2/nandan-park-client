@@ -9,7 +9,7 @@ const Booking = () => {
 
     useEffect(() =>{
         
-        fetch(`rides.json${ridesId}`)
+        fetch(`http://localhost:7000/rides${ridesId}`)
         .then(res => res.json())
         .then(data => setBook(data))
     },[ridesId])
