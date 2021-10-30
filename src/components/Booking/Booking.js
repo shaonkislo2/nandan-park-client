@@ -9,7 +9,7 @@ const Booking = () => {
 
     useEffect(() =>{
         
-        fetch(`http://localhost:7000/rides${ridesId}`)
+        fetch(`https://arcane-taiga-64807.herokuapp.com/rides${ridesId}`)
         .then(res => res.json())
         .then(data => setBook(data))
     },[ridesId])
