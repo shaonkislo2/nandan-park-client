@@ -12,7 +12,7 @@ const Ride = ({ride}) => {
          <h3 className="px-3 mt-3">{price}</h3>
          
          <Link to={`/booking/${name}`}>
-            <button className="btn-style">Book {name} </button>
+            <button className="btn-style">Book - {name} </button>
             </Link>
         </div>
         

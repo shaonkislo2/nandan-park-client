@@ -9,6 +9,9 @@ const Package = ({pack}) => {
             <h3>{price} </h3>
             <h5>{details} </h5>
             
+            <button className="book-style">Book  </button>
+            
+            
         </div>
     );
 };

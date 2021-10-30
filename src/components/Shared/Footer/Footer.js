@@ -9,10 +9,10 @@ const Footer = () => {
               <div className="col-md-4  ">   
                   <h2 className="mt-5">About Us</h2>
                    <div className="link-style">
-                   <span><Link to="/home">Home</Link></span> <br />
-                   <span><Link to="/services">Services</Link></span> <br />
-                   <span><Link to="/doctors">Doctors</Link></span> <br />
-                   <span><Link to="/appointment">Appointment</Link></span>
+                   <span><Link to="/">Home</Link></span> <br />
+                   <span><Link to="/rides">Rides</Link></span> <br />
+                   <span><Link to="/packages">Packages</Link></span> <br />
+                   <span><Link to="/membership">MemberShip</Link></span>
                    </div>                                 
               </div>
               
@@ -26,18 +26,17 @@ const Footer = () => {
               <div className="col-md-4">
                 <div className="fourth-part">
                   <h3 className="mt-5">Contact Us</h3>
-                  <small >Office:  Road #  5/A
-                  Dhanmondi R/A,Dhaka. </small>
+                  <small ><i class="fas fa-map-marker-alt"></i> Baroipara,Chandra,Savar,Dhaka,Bangladesh. </small>
                   <br />
-                  <small> <i class="fas fa-phone-square-alt"></i> Phone: +8802-58610661-5</small>
+                  <small> <i class="fas fa-phone-square-alt"></i> Phone: +8802-54552-5645</small>
                   <br />
-                  <small><i class="fas fa-envelope"></i> Mail: medinova@gmail.com</small>
+                  <small><i class="fas fa-envelope"></i> Mail: nandanpark789@gmail.com</small>
                 </div>
               </div>
             </div>
             <hr />
             <div className="botton text-center">
-              <small>© 2021  MEDINOVA MEDICAL SERVICES LTD All Rights Reserved.</small>
+              <small>© 2021  NANDAN PARK LTD All Rights Reserved.</small>
             </div>
           
         </div>
