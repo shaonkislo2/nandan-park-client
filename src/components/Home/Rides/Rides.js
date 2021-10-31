@@ -12,7 +12,7 @@ const Rides = () => {
     },[])
     return (
         <div id="rides">
-           <h1 className="text-primary my-5">Our Rides 
+           <h1 className="my-5">Our Rides 
            </h1>
           
 

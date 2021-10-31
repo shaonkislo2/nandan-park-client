@@ -4,7 +4,7 @@ const MemberShip = () => {
     return (
         <div id="membership">
 			<div className="mt-5">
-				<h1 className="text-primary my-5">Membership</h1>
+				<h1 className=" my-5">Membership</h1>
 				<div className="contact-form p-3">
 					<div className="row  d-flex justify-content-center ">
 						<div className="col-md-6 mt-5">

@@ -4,7 +4,7 @@ import { Carousel } from 'react-bootstrap';
 const Gallery = () => {
     return (
         <div className="row mt-5" id="gallery">
-			<h1 className="text-primary">Gallery</h1>
+			<h1>Gallery</h1>
 
 			<div className="col-lg-4 container mt-5 ">
 				<Carousel>
