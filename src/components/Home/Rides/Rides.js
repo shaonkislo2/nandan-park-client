@@ -14,8 +14,6 @@ const Rides = () => {
         <div id="rides">
            <h1 className="my-5">Our Rides 
            </h1>
-          
-
            <div className="ride-container">
                {
                    rides.map(ride => <Ride
@@ -24,8 +22,6 @@ const Rides = () => {
                    ></Ride>)
                }
            </div>
-           
-
         </div>
     );
 };

@@ -4,9 +4,8 @@ const MemberShip = () => {
     return (
         <div id="membership">
 			<div className="mt-5">
-				<h1 className=" my-5">Membership</h1>
-				<div className="contact-form p-3">
-					<div className="row  d-flex justify-content-center ">
+				<h1 className=" my-5">Membership</h1>				
+					<div className="row  d-flex justify-content-center p-5 ">
 						<div className="col-md-6 mt-5">
                         <input type="text" placeholder="Your Name" />
                     <br />
@@ -41,7 +40,6 @@ const MemberShip = () => {
 							</div>
 						</div>
 					</div>
-				</div>
 			</div>
 		</div>
     );

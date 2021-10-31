@@ -7,11 +7,8 @@ const Package = ({pack}) => {
         <div className="package p-3">
             <img src={img} alt="" />
             <h3>{price} </h3>
-            <h5>{details} </h5>
-            
-            <button className="book-style">Book  </button>
-            
-            
+            <h5>{details} </h5>          
+            <button className="book-style">Book  </button>                      
         </div>
     );
 };

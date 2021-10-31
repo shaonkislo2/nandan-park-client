@@ -13,9 +13,7 @@ const Home = () => {
       <Rides></Rides>
       <Packages></Packages>
       <Gallery></Gallery>
-      <MemberShip></MemberShip>
-      
-      
+      <MemberShip></MemberShip>          
         </div>
     );
 };
