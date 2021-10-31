@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 
 const Booking = () => {
-    const {serviceId: ridesId} = useParams();
+    const { ridesId} = useParams();
     const [book, setBook] = useState({});
 
     useEffect(() =>{
@@ -19,6 +18,8 @@ const Booking = () => {
         <div>
             <h2>If are You Booking for - {ridesId} , PLease Login </h2>
             <br />
+            <h2>{book.img}</h2>
+
           <form onSubmit="">
               <input type="email" placeholder="Your Email" />
               <br />

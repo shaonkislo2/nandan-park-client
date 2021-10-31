@@ -14,6 +14,7 @@ import NotFound from './components/NotFound/NotFound';
 import Footer from './components/Shared/Footer/Footer';
 import Gallery from './components/Home/Gallery/Gallery';
 import MemberShip from './components/Home/MemberShip/MemberShip';
+import About from './components/About/About';
 
 function App() {
   return (
@@ -39,6 +40,9 @@ function App() {
           </Route>
           <Route exact path = "/membership">
            <MemberShip></MemberShip>
+          </Route>
+          <Route exact path = "/about">
+           <About></About>
           </Route>
           <Route exact path = "/login">
            <Login></Login>

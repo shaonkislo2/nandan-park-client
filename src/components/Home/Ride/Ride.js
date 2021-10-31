@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Ride.css'
 
 const Ride = ({ride}) => {
-    const {name, img,price} = ride;
+    const {name, img,price,} = ride;
     
     return (
         <div  className="ride  p-3">
